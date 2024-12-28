@@ -1,0 +1,37 @@
+
+
+-> we can add JavaScript to HTML/Webpage of 2 types 
+
+1.Internal: (Can be added in both <head> and <body> tags)
+
+        the perfect way to write in <body> tag 
+
+        <body>
+            <script>
+                document.write("Hello world!")
+            </script>
+        </body>
+
+
+2.External:
+
+    we can create seperate .js file and add it to the HTML using script
+
+     <!-- Add the external script file -->
+    <script src="script.js"></script>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+    </script>
+</body>
+</html>
